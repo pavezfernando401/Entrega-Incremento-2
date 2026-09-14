@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Codex" type="device">
+  <diagram id="DS-CU59-A-Flujo-principal-visor-cartografico" name="DS-CU59-A Flujo principal visor cartografico">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1504" pageHeight="1160" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="participant_actor" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=11;fontFamily=Helvetica;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="44" y="34" width="56" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_actor" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="118" as="sourcePoint" />
+            <mxPoint x="72" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_page" value="V_CoberturaPage" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="172" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_page" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="112" as="sourcePoint" />
+            <mxPoint x="260" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_viewer" value="V_VisorCobertura" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_viewer" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="448" y="112" as="sourcePoint" />
+            <mxPoint x="448" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_map" value="V_MapaCobertura" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="548" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_map" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="636" y="112" as="sourcePoint" />
+            <mxPoint x="636" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_api" value="C_getVisorCoberturaConfig" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="736" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_api" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="824" y="112" as="sourcePoint" />
+            <mxPoint x="824" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_controller" value="C_CoberturaController" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="924" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_controller" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1012" y="112" as="sourcePoint" />
+            <mxPoint x="1012" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_service" value="C_CoberturaService" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_service" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="112" as="sourcePoint" />
+            <mxPoint x="1200" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="participant_osm" value="OpenStreetMap" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="70" width="176" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lifeline_osm" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=3 3;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1388" y="112" as="sourcePoint" />
+            <mxPoint x="1388" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activation_actor" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="67" y="162" width="10" height="894" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_page" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="162" width="10" height="894" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_viewer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="443" y="626" width="10" height="372" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_map" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="631" y="684" width="10" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_api" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="819" y="220" width="10" height="372" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_controller" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="278" width="10" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_service" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="336" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="activation_osm" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1383" y="800" width="10" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="message_1" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="174" as="sourcePoint" />
+            <mxPoint x="255" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_1" value="1. Accede a la vista pública /cobertura" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="79" y="143" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_2" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="232" as="sourcePoint" />
+            <mxPoint x="819" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_2" value="2. Solicita configuración del visor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="267" y="201" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_3" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829" y="290" as="sourcePoint" />
+            <mxPoint x="1007" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_3" value="3. Envía GET /cobertura/config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="831" y="259" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_4" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1017" y="348" as="sourcePoint" />
+            <mxPoint x="1195" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_4" value="4. Solicita parámetros de inicialización" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="317" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_5" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="406" />
+              <mxPoint x="1264" y="430" />
+            </Array>
+            <mxPoint x="1205" y="406" as="sourcePoint" />
+            <mxPoint x="1205" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_5" value="5. Obtiene centro, zoom y límites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="375" width="172" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_6" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="464" as="sourcePoint" />
+            <mxPoint x="1017" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_6" value="6. Devuelve configuración del visor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="433" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_7" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1007" y="522" as="sourcePoint" />
+            <mxPoint x="829" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_7" value="7. Responde configuración con caché de 24 horas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="831" y="491" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_8" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819" y="580" as="sourcePoint" />
+            <mxPoint x="265" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_8" value="8. Entrega configuración del visor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="267" y="549" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_9" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="638" as="sourcePoint" />
+            <mxPoint x="443" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_9" value="9. Renderiza marco del visor con la configuración" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="267" y="607" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_10" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453" y="696" as="sourcePoint" />
+            <mxPoint x="631" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_10" value="10. Carga MapaCobertura solo en el cliente" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="455" y="665" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_11" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="754" />
+              <mxPoint x="700" y="778" />
+            </Array>
+            <mxPoint x="641" y="754" as="sourcePoint" />
+            <mxPoint x="641" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_11" value="11. Inicializa mapa con centro, zoom y límites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="648" y="723" width="172" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_12" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641" y="812" as="sourcePoint" />
+            <mxPoint x="1383" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_12" value="12. Solicita tiles /{z}/{x}/{y}.png" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="643" y="781" width="738" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_13" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1383" y="870" as="sourcePoint" />
+            <mxPoint x="641" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_13" value="13. Devuelve tiles del mapa base" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="643" y="839" width="738" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_14" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631" y="928" as="sourcePoint" />
+            <mxPoint x="453" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_14" value="14. Entrega mapa base interactivo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="455" y="897" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_15" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443" y="986" as="sourcePoint" />
+            <mxPoint x="265" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_15" value="15. Entrega visor cartográfico inicializado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="267" y="955" width="174" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="message_16" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;endFill=1;dashed=1;dashPattern=6 6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="1044" as="sourcePoint" />
+            <mxPoint x="77" y="1044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_16" value="16. Muestra visor responsivo listo para explorar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="79" y="1013" width="174" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
